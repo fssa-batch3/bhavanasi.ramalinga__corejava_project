@@ -16,7 +16,7 @@ public class Calculator {
     }
 
 	
-   public static void main(String[] args) {
+  public static void main(String[] args) {
 Calculator calc = new Calculator();
 System.out.println(calc.add(2, 3));           
 System.out.println(calc.add(2.5, 3.7));       
