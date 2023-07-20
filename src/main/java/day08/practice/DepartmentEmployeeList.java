@@ -34,7 +34,7 @@ public class DepartmentEmployeeList {
 			departmentEmployeesMap.put(department, employees);
 		}
 
-		// Print department names and employees
+		 // Print department names and employees
 		System.out.println("\nOutput:");
 		for (String department : departmentEmployeesMap.keySet()) {
 			List<String> employees = departmentEmployeesMap.get(department);
